@@ -1,0 +1,28 @@
+# Evita que o projeto Android completo seja adicionado por engano
+app/
+gradle/
+.gradle/
+.idea/
+build/
+**/build/
+local.properties
+
+# Assinatura, serviços e configurações privadas
+*.jks
+*.keystore
+keystore.properties
+secrets.properties
+google-services.json
+.env
+.env.*
+
+# Aplicativos e relatórios gerados
+*.apk
+*.aab
+*.log
+*.tmp
+
+# Arquivos locais do sistema
+.DS_Store
+Thumbs.db
+
